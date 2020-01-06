@@ -9,7 +9,7 @@ namespace Microsoft.AspNetCore.Builder
         public CasOptions()
         {
             CallbackPath = new PathString("/signin-cas");
-            TicketValidator = new Cas2TicketValidator();
+            TicketValidator = new Cas3TicketValidator();
             Events = new CasEvents();
         }
 
